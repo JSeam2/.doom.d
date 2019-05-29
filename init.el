@@ -155,7 +155,7 @@
        ;;calendar
        ;;irc              ; how neckbeards socialize
        ;;rss +org        ; emacs as an RSS reader
-       ;;twitter           ; twitter client https://twitter.com/vnought
+       twitter           ; twitter client https://twitter.com/vnought
        ;;(write            ; emacs as a word processor (latex + org + markdown)
        ;; +wordnut         ; wordnet (wn) search
        ;; +langtool)       ; a proofreader (grammar/style check) for Emacs
@@ -181,7 +181,5 @@
  whitespace-style
  '(face trailing lines-tail))
 
-;; Turn of line wrapping
-;;
 ;; Clean up
 (add-hook 'before-save-hook 'whitespace-cleanup)
