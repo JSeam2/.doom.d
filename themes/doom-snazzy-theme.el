@@ -12,8 +12,8 @@
   "A dark theme inspired by Atom Snazzy Dark"
 
   ;; name        default   256       16
-  ((bg         '("#282a36" nil       nil)) ;; this is the background for the hl-line, modeline, and minibuffer
-   (bg-alt     '("#242631" nil       nil)) ;; this is the background for the line you arent currently on
+  ((bg         '("#282828" nil       nil)) ;; this is the background for the hl-line, modeline, and minibuffer
+   (bg-alt     '("#282828" nil       nil)) ;; this is the background for the line you arent currently on
    (base0      '("#282a36" nil       nil))
    (base1      '("#34353e" nil       nil))
    (base2      '("#43454f" nil       nil))

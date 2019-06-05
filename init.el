@@ -65,7 +65,7 @@
        ;;debugger          ; FIXME stepping through code, to help you add bugs
        ;;direnv
        docker
-       ;;editorconfig      ; let someone else argue about tabs vs spaces
+       editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        eval              ; run code, run (also, repls)
        flycheck          ; tasing you for every semicolon you forget
@@ -82,7 +82,7 @@
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;terraform         ; infrastructure as code
-       ;;tmux              ; an API for interacting with tmux
+       tmux              ; an API for interacting with tmux
        ;;upload            ; map local to remote projects via ssh/ftp
        ;;wakatime
        ;;vterm             ; another terminals in Emacs
@@ -103,7 +103,7 @@
        emacs-lisp        ; drown in parentheses
        ;;ess               ; emacs speaks statistics
        go                ; the hipster dialect
-       ;;(haskell +intero) ; a language that's lazier than I am
+       (haskell +intero) ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        ;;idris             ;
        (java +meghanada) ; the poster child for carpal tunnel syndrome
@@ -139,7 +139,7 @@
        sh                  ; she sells (ba|z|fi)sh shells on the C xor
        solidity          ; do you need a blockchain? No.
        swift             ; who asked for emoji variables?
-       ;;terra             ; Earth and Moon in alignment for performance.
+       terra             ; Earth and Moon in alignment for performance.
        ;;web               ; the tubes
        ;;vala              ; GObjective-C
 
@@ -155,7 +155,7 @@
        ;;calendar
        ;;irc              ; how neckbeards socialize
        ;;rss +org        ; emacs as an RSS reader
-       twitter           ; twitter client https://twitter.com/vnought
+       ;; twitter           ; twitter client https://twitter.com/vnought
        ;;(write            ; emacs as a word processor (latex + org + markdown)
        ;; +wordnut         ; wordnet (wn) search
        ;; +langtool)       ; a proofreader (grammar/style check) for Emacs
@@ -175,11 +175,3 @@
        (default +bindings +smartparens))
 
 
-;; ;; Trailing whitespace
-(setq
- whitespace-line-column 80
- whitespace-style
- '(face trailing lines-tail))
-
-;; Clean up
-(add-hook 'before-save-hook 'whitespace-cleanup)
