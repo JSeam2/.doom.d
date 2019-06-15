@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: HTML tags
-# key: <>
-# --
-<${1:enumerate}>$0</$1>
