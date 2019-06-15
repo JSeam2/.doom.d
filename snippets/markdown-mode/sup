@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: HTML close tag
+# key: sup
+# --
+<sup/>$1</sup>

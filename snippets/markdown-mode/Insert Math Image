@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Insert Math Image
+# key: math?
+# --
+
+<img src="https://render.githubusercontent.com/render/math?math=$1">
