@@ -8,13 +8,14 @@
 ;;  whitespace-style
 ;;  '(face trailing lines-tail))
 
-;; Clean up
+;;; Clean up
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
 ;; snippets
 (use-package emacs-snippets
   :load-path "snippets"
   :after yasnippet)
+
 
 ;; Markdown mode
 (use-package markdown-mode
