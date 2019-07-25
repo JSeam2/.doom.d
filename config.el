@@ -16,6 +16,8 @@
   :load-path "snippets"
   :after yasnippet)
 
+;; relative line number
+(setq display-line-numbers-type 'relative)
 
 ;; Markdown mode
 (use-package markdown-mode
